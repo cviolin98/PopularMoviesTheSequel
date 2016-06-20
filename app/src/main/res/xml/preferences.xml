@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="Movie Sort Method"
+        android:summary="Sorting Method: TEXT"
+        android:key="sortMethod"
+        android:defaultValue="@string/sort_param_default"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+</PreferenceScreen>
